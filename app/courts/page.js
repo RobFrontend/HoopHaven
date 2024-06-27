@@ -17,7 +17,7 @@ async function Page() {
         width={500}
         height={500}
         alt="Court"
-        className="rounded-xl"
+        className="rounded-2xl"
       />
     </div>
   );
