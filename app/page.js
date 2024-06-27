@@ -10,6 +10,8 @@ export default function Home() {
         placeholder="blur"
         className="object-cover object-top"
         alt="basketball court"
+        loading="lazy"
+        quality={90}
       />
 
       <div className="relative  text-center">
