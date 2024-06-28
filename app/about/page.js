@@ -41,9 +41,9 @@ function Page() {
       </p>
       <h3>Where Legends Are Made</h3>
       <p>
-        Discover the magic of the game where legends are made, whether you're a
-        seasoned player or a novice looking to shoot some hoops and enjoy the
-        thrill of the sport.
+        Discover the magic of the game where legends are made, whether
+        you&apos;re a seasoned player or a novice looking to shoot some hoops
+        and enjoy the thrill of the sport.
       </p>
       {/* //////////////////////////////////////////////////// */}
       <p>
