@@ -8,7 +8,7 @@ const latoSans = Anek_Devanagari({
 });
 
 export const metadata = {
-  title: "Hoops Haven",
+  title: { template: "%s / Hoops Haven", default: "Welcome / Hoops Haven" },
   description: "Discover Unique Basketball Courts for Rent Worldwide",
 };
 

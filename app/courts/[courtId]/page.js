@@ -3,16 +3,23 @@ import Image from "next/image";
 
 export async function generateMetadata({ params }) {
   const { name } = await getCourt(params.courtId);
-  return { title: `${name}` };
+  return { title: `Court ${name}` };
 }
 
-async function page({ params }) {
+export default async function Page({ params }) {
   const court = await getCourt(params.courtId);
+
   return (
     <div>
       <h1>{court.name}</h1>
       <div className="grid grid-cols-2 gap-3">
-        <Image src={court.image} width={800} height={800} alt={court.name} />
+        <Image
+          src={court.image}
+          loading="lazy"
+          width={800}
+          height={800}
+          alt={court.name}
+        />
         <div className="flex flex-col justify-between p-3">
           <h2>{court.info}</h2>
           <div>
@@ -24,5 +31,3 @@ async function page({ params }) {
     </div>
   );
 }
-
-export default page;

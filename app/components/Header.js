@@ -7,7 +7,7 @@ import Navigation from "./Navigation";
 function Header() {
   return (
     <Headroom>
-      <header className="flex justify-between items-center px-8 py-8">
+      <header className="flex justify-between items-center  px-12  h-24">
         <Logo />
         <Navigation />
       </header>
