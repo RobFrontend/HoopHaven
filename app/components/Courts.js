@@ -6,8 +6,8 @@ async function Courts() {
   if (!courts.length) return null;
   return (
     <div>
-      <h2>Lista</h2>
-      <div className="grid grid-cols-2 gap-12">
+      <h2 className="mb-10">Discover Our Extraordinary Basketball Courts</h2>
+      <div className="grid grid-cols-2 gap-12 mb-12">
         {courts.map((court) => (
           <CourtCard court={court} key={court.id} />
         ))}

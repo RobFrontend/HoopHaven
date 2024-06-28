@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 function CourtCard({ court }) {
   return (
     <Fade triggerOnce>
-      <div className="grid grid-cols-2 gap-1 rounded-lg shadow-md bg-slate-800 overflow-hidden">
+      <div className="grid grid-cols-2 gap-1 rounded-lg shadow-md bg-slate-800 hover:bg-slate-900 transition duration-500 overflow-hidden">
         <Image
           src={court.image}
           width={500}
