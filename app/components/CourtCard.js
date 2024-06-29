@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 function CourtCard({ court }) {
   return (
     <Fade triggerOnce>
-      <div className="grid grid-cols-2 gap-1 rounded-lg shadow-md bg-slate-800 hover:bg-slate-900 transition duration-500 overflow-hidden">
+      <div className="grid grid-cols-2 gap-1 rounded-lg shadow-md bg-neutral-800 hover:bg-neutral-900 transition duration-500 overflow-hidden">
         <Image
           src={court.image}
           loading="lazy"
@@ -27,7 +27,7 @@ function CourtCard({ court }) {
             <div className="grid  justify-items-center ">
               <Link
                 href={`/courts/${court.id}`}
-                className="text-lg px-6 py-2 bg-slate-200 text-slate-900 rounded-md font-semibold justify-center transition duration-300 hover:bg-slate-100"
+                className="text-lg px-6 py-2 bg-neutral-200 text-neutral-900 rounded-md font-semibold justify-center transition duration-300 hover:bg-neutral-100"
               >
                 Learn more
               </Link>

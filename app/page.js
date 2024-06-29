@@ -15,10 +15,10 @@ export default function Home() {
       />
 
       <div className="relative  text-center">
-        <h1 className="text-slate-100 mb-10 tracking-tight font-bold drop-shadow-xl shadow-slate-950">
+        <h1 className="text-neutral-100 mb-10 tracking-tight font-bold drop-shadow-xl shadow-neutral-950">
           Hoops Haven
         </h1>
-        <h2 className="text-slate-50 mb-10 tracking-tight font-semibold drop-shadow-xl shadow-slate-950">
+        <h2 className="text-neutral-50 mb-10 tracking-tight font-semibold drop-shadow-xl shadow-neutral-950">
           Discover Unique Basketball Courts for Rent Worldwide
         </h2>
       </div>

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${latoSans.className} antialiased min-h-screen flex flex-col relative bg-gradient-to-br from-slate-800 to-slate-950 text-slate-50`}
+        className={`${latoSans.className} antialiased min-h-screen flex flex-col relative bg-gradient-to-br from-neutral-800 to-neutral-950 text-neutral-50`}
       >
         <Header />
         <div className="flex-1 grid">

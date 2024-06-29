@@ -11,7 +11,7 @@ export default async function Page({ params }) {
 
   return (
     <div>
-      <h1>{court.name}</h1>
+      <h1 className="text-neutral-300">{court.name}</h1>
       <div className="grid grid-cols-2 gap-3">
         <Image
           src={court.image}
@@ -21,7 +21,7 @@ export default async function Page({ params }) {
           alt={court.name}
         />
         <div className="flex flex-col justify-between p-3">
-          <h2>{court.info}</h2>
+          <h2 className="text-neutral-100">{court.info}</h2>
           <div>
             <h2>For 1 hour: ${court.priceHour}</h2>
             <h2>For 1 day: ${court.priceDay}</h2>
