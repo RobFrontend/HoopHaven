@@ -9,7 +9,7 @@ export const metadata = {
 function Page() {
   return (
     <div className="py-16">
-      <div>
+      <div className="pb-10">
         <h1 className="text-neutral-300">Courts</h1>
         <p className="text-lg">
           Experience basketball like never before with our curated selection of

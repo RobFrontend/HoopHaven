@@ -18,14 +18,22 @@ export default async function Page({ params }) {
           loading="lazy"
           width={800}
           height={800}
+          className="rounded-lg"
           alt={court.name}
         />
         <div className="flex flex-col justify-between p-3">
-          <h2 className="text-neutral-100">{court.info}</h2>
+          <p className="text-neutral-100 text-4xl">{court.info}</p>
           <div>
-            <h2>For 1 hour: ${court.priceHour}</h2>
-            <h2>For 1 day: ${court.priceDay}</h2>
+            <p className="text-neutral-100 text-5xl">
+              For 1 hour: ${court.priceHour}
+            </p>
+            <p className="text-neutral-100 text-5xl">
+              For 1 day: ${court.priceDay}
+            </p>
           </div>
+          <button className="bg-neutral-800 text-neutral-100 text-6xl py-3 px-6 font-semibold rounded-lg hover:opacity-80 transition duration-300">
+            Book Now
+          </button>
         </div>
       </div>
     </div>
