@@ -16,7 +16,12 @@ function Page() {
       </p>
       {/* //////////////////////////////////////////////////// */}
       <div className="grid grid-cols-2 gap-6 py-12 px-6">
-        <Image src={about1} alt="court" className="rounded-lg" />
+        <Image
+          src={about1}
+          placeholder="blur"
+          alt="court"
+          className="rounded-lg"
+        />
         <div className="flex flex-col gap-3 p-2">
           <h2 className="text-6xl text-neutral-200 pb-2">Why Choose Us?</h2>
           <h3 className="text-3xl">Unparalleled Variety:</h3>
@@ -61,7 +66,12 @@ function Page() {
             hoops and enjoy the thrill of the sport.
           </p>
         </div>
-        <Image src={about2} alt="court" className="rounded-lg" />
+        <Image
+          src={about2}
+          placeholder="blur"
+          alt="court"
+          className="rounded-lg"
+        />
       </div>
       {/* //////////////////////////////////////////////////// */}
       <div className="gap-6 p-6">
@@ -71,7 +81,12 @@ function Page() {
           exhilarated. Choose us for an unforgettable basketball experience
           unlike any other!
         </p>
-        <Image src={about3} alt="court" className="rounded-lg" />
+        <Image
+          src={about3}
+          placeholder="blur"
+          alt="court"
+          className="rounded-lg"
+        />
       </div>
     </div>
   );

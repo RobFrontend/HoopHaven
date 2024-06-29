@@ -1,5 +1,5 @@
 import { Anek_Devanagari } from "next/font/google";
-import "./globals.css";
+import "@/app/styles/globals.css";
 import Header from "./components/Header";
 
 const latoSans = Anek_Devanagari({
