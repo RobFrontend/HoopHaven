@@ -8,9 +8,9 @@ export const metadata = {
 
 function Page() {
   return (
-    <div>
-      <div className="mb-16">
-        <h1>Courts</h1>
+    <div className="py-16">
+      <div>
+        <h1 className="text-neutral-300">Courts</h1>
         <p className="text-lg">
           Experience basketball like never before with our curated selection of
           unique courts set against breathtaking backdrops. From city skylines
