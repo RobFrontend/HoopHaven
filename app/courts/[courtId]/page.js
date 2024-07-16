@@ -1,9 +1,18 @@
-import { getCourt } from "@/app/lib/data-service";
+import { getCourt, getCourts } from "@/app/lib/data-service";
 import Image from "next/image";
 
 export async function generateMetadata({ params }) {
   const { name } = await getCourt(params.courtId);
   return { title: `Court ${name}` };
+}
+
+export async function generateStaticParams() {
+  const courts = await getCourts();
+  const ids = courts.map((court) => ({
+    courtId: String(court.id),
+  }));
+  console.log(ids);
+  return ids;
 }
 
 export default async function Page({ params }) {
