@@ -10,7 +10,7 @@ function Logo() {
         width="60"
         height="60"
         alt="logo"
-        className="hover:opacity-80 shadow-md transition duration-300"
+        className="hover:opacity-80 hover:drop-shadow-lg drop-shadow-md transition duration-300"
       />
     </Link>
   );
