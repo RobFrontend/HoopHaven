@@ -8,10 +8,12 @@ export const metadata = {
 
 function Page() {
   return (
-    <div className="py-16">
+    <div className="py-16 max-2xl:px-8">
       <div className="pb-10">
-        <h1 className="text-neutral-300">Courts</h1>
-        <p className="text-lg">
+        <h1 className="text-neutral-300 max-sm:text-6xl max-md:text-7xl">
+          Courts
+        </h1>
+        <p className="text-lg max-sm:text-xs max-md:text-sm">
           Experience basketball like never before with our curated selection of
           unique courts set against breathtaking backdrops. From city skylines
           to volcanic vistas, each court offers a one-of-a-kind setting for you
