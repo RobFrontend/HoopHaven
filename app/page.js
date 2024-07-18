@@ -15,17 +15,27 @@ export default function Home() {
         quality={90}
       />
 
-      <div className="relative  text-center">
-        <h1 className="text-neutral-100 mb-10 tracking-tight font-bold drop-shadow-xl shadow-neutral-950">
+      <div className="relative  text-center max-md:grid items-center">
+        <h1 className="text-neutral-100 mb-10 lg:mt-24 tracking-tight font-bold drop-shadow-xl shadow-neutral-950 max-sm:text-4xl max-md:text-6xl">
           Hoops Haven
         </h1>
-        <h2 className="text-neutral-50 mb-10 tracking-tight font-semibold drop-shadow-xl shadow-neutral-950 ">
+        <h2 className="text-neutral-50 mb-10 tracking-tight font-semibold drop-shadow-xl shadow-neutral-950 max-sm:hidden max-md:text-xl max-lg:text-2xl">
           <Link
-            className="px-4 border-b-4 border-neutral-600 transition-all duration-300 hover:border-neutral-100  hover:px-6"
+            className="px-4 border-b-4 border-neutral-600 transition-all duration-300 hover:border-neutral-100  hover:px-6 "
             href="/courts"
           >
             Discover Unique Basketball Courts for Rent Worldwide
           </Link>{" "}
+        </h2>
+        <h2 className="text-neutral-50 mb-4 tracking-tight  hidden font-semibold drop-shadow-xl shadow-neutral-950  max-sm:block text-lg">
+          {" "}
+          Discover<br></br>
+          <Link
+            className="px-2 border-b-2  border-neutral-600 transition-all duration-300 hover:border-neutral-100  hover:px-6 "
+            href="/courts"
+          >
+            Unique Basketball Courts
+          </Link>
         </h2>
       </div>
     </main>

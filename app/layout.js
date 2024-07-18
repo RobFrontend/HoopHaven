@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         className={`${latoSans.className} antialiased min-h-screen flex flex-col relative bg-gradient-to-br from-neutral-800 to-neutral-950 text-neutral-50`}
       >
         <Header />
-        <div className="flex-1 grid">
+        <div className="flex-1 grid max-md:items-center">
           <main className="max-w-7xl mx-auto w-full">{children}</main>
         </div>
       </body>
