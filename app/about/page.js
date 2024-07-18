@@ -17,7 +17,7 @@ function Page() {
         volcano.
       </p>
       {/* //////////////////////////////////////////////////// */}
-      <div className="grid grid-cols-2 gap-6 py-12 px-6 max-md:grid-cols-1">
+      <div className="grid grid-cols-2 gap-6 py-12 px-6 max-md:grid-cols-1 max-md:px-2">
         <Image
           src={about1}
           placeholder="blur"
@@ -53,7 +53,7 @@ function Page() {
         </div>
       </div>
       {/* //////////////////////////////////////////////////// */}
-      <div className="grid grid-cols-2 gap-6 py-8 px-6 max-md:grid-cols-1">
+      <div className="grid grid-cols-2 gap-6 py-8 px-6 max-md:grid-cols-1 max-md:px-2">
         <div className="flex flex-col gap-3 p-2">
           <h2 className="text-6xl text-neutral-200 pb-2 max-sm:text-2xl max-md:text-4xl">
             Embracing Basketball Culture
@@ -90,7 +90,7 @@ function Page() {
         />
       </div>
       {/* //////////////////////////////////////////////////// */}
-      <div className="gap-6 p-6 grid">
+      <div className="gap-6 p-6 grid max-md:p-0">
         <p className="text-2xl text-center max-md:text-lg max-sm:text-base">
           Join us in celebrating the love of basketball and the joy of playing
           the game in extraordinary locations that will leave you inspired and
