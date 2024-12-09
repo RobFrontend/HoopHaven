@@ -23,7 +23,7 @@ async function account() {
         </div>
       ) : (
         <h1 className="text-neutral-300 max-sm:text-6xl max-md:text-7xl">
-          Problem with loggin in
+          Problem with loggin
         </h1>
       )}
     </div>
