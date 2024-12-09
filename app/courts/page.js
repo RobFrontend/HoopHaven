@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import Courts from "../components/Courts";
 import Spinner from "../components/Spinner";
+import { auth } from "../lib/auth";
 
 export const metadata = {
   title: "Courts",

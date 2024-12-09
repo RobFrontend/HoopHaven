@@ -22,6 +22,12 @@ function Navigation() {
         >
           About
         </Link>
+        <Link
+          className="hover:opacity-80 transition duration-300 max-sm:text-2xl"
+          href="/account"
+        >
+          Account
+        </Link>
       </ul>
     </nav>
   );
