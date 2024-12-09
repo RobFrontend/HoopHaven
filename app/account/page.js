@@ -1,3 +1,4 @@
+import SignOutBtn from "../components/SignOutBtn";
 import { auth } from "../lib/auth";
 
 export const metadata = {
@@ -20,6 +21,7 @@ async function account() {
           <p className="text-lg max-sm:text-xs max-md:text-sm">
             Feel free to explore our courts
           </p>
+          <SignOutBtn />
         </div>
       ) : (
         <h1 className="text-neutral-300 max-sm:text-6xl max-md:text-7xl">
