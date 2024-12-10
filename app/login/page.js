@@ -11,10 +11,12 @@ function page() {
         <h1 className="text-neutral-300 max-sm:text-6xl max-md:text-7xl">
           Please log in
         </h1>
-        <p className="text-lg max-sm:text-xs max-md:text-sm">
-          using Google auth
-        </p>
-        <SignInBtn />
+        <div className="grid justify-center p-8 gap-4">
+          <p className="text-lg max-sm:text-xs max-md:text-sm">
+            Please log in to see your account
+          </p>
+          <SignInBtn />
+        </div>
       </div>
     </div>
   );
